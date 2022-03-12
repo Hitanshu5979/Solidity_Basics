@@ -17,7 +17,7 @@ Environment Setup:
 ![image](https://user-images.githubusercontent.com/53534136/158008600-51857654-8af8-40a6-9b0a-317c77d774b1.png)
 
    b. Or download the zip version of this repo onto your local system, unpack the file, and then load the files into Remix IDE.
-![image](https://user-images.githubusercontent.com/53534136/158008665-b10110b3-bb98-44e8-a50a-74ef4f322bd9.png)
+   ![image](https://user-images.githubusercontent.com/53534136/158008665-b10110b3-bb98-44e8-a50a-74ef4f322bd9.png)
 
 3. Open the Compiler Tab
 ![image](https://user-images.githubusercontent.com/53534136/158008727-22297406-a660-4a00-aceb-11b5ce0b54eb.png)
