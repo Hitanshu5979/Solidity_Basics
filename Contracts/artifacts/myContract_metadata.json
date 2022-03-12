@@ -4,7 +4,91 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "addValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stringArray",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "uintArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valueCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "values",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +102,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/Loops.sol": "myContract"
+			"Contracts/Arrays.sol": "myContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +116,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/Loops.sol": {
-			"keccak256": "0x2594fb78719c987173db03f311184cc7202b0034d1153f5b15c6a9f2badc4a2f",
+		"Contracts/Arrays.sol": {
+			"keccak256": "0x24a82967442e04061d663a6f01cf9467c37b62a1c607a1494432d6042d02504b",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://968e7a03fb6de639eb2995ef3aa32530c2bab938f89dced86edd81b64183858e",
-				"dweb:/ipfs/QmYLkjBmbPs9wsvjMgnCreENmW3CoRWzStKULJdPLU8pKA"
+				"bzz-raw://2beccc7f5d19e3ca4438af8cc7316879448181e90283ed1d04d78863f744e253",
+				"dweb:/ipfs/QmWteJ5pxX7JaKpyikGWwRf8XGm7sWDX8BNutHuDdqQQSw"
 			]
 		}
 	},
