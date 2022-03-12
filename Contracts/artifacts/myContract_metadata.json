@@ -6,104 +6,64 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "addValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stringArray",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "uintArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_author",
-						"type": "string"
-					}
-				],
-				"name": "addBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_author",
-						"type": "string"
-					}
-				],
-				"name": "addMyBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "books",
+				"name": "valueCount",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "author",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "myBooks",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "author",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -117,7 +77,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "names",
+				"name": "values",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -142,7 +102,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Mappings.sol": "myContract"
+			"Contracts/Arrays.sol": "myContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -156,12 +116,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Mappings.sol": {
-			"keccak256": "0xa1276a82f30aedec485b7e172c3946bee37fbecfdca1e23a32fb0aea8cc111c3",
+		"Contracts/Arrays.sol": {
+			"keccak256": "0x24a82967442e04061d663a6f01cf9467c37b62a1c607a1494432d6042d02504b",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://8427fb64120119b3e714921a66e74d4b2241c3417e889c3d582c057d5b656e74",
-				"dweb:/ipfs/QmXQjCM5phTsUh43LzqVRbJdabd8cErmqWdW5TYWF4BrFT"
+				"bzz-raw://2beccc7f5d19e3ca4438af8cc7316879448181e90283ed1d04d78863f744e253",
+				"dweb:/ipfs/QmWteJ5pxX7JaKpyikGWwRf8XGm7sWDX8BNutHuDdqQQSw"
 			]
 		}
 	},
