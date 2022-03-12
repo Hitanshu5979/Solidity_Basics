@@ -1,13 +1,13 @@
 # Solidity_Basics
-All the Basics of Solidity and Smart Contracts
+All the Basics of Solidity and Smart Contracts. 
 Followed this playlist by Dapp University :
 https://youtube.com/playlist?list=PLS5SEs8ZftgVnWHv2_mkvJjn5HBOkde3g
 
-This repository contains Smart Contracts of all the basics of Solidity discussed by Gregory from Dapp University
-Made for people to reference while going through the playlist above.
-Encouraged to download the smart contracts and play around with them to get a hands on understanding of Solidity
+This repository contains Smart Contracts of all the basics of Solidity discussed by Gregory from Dapp University. 
+Made for people to reference while going through the playlist above. 
+Encouraged to download the smart contracts and play around with them to get a hands on understanding of Solidity. 
 
-The best Documentation for Remix is available at https://remix-ide.readthedocs.io/en/latest/#
+The best Documentation for Remix is available at https://remix-ide.readthedocs.io/en/latest/# . 
 
 Environment Setup:
 1. Open Remix IDE on your Browser
