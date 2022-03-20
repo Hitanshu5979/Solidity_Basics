@@ -1,0 +1,67 @@
+{
+	"id": "4c12f2165ef1b0bc59227d5dae93c061",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.12",
+	"solcLongVersion": "0.8.12+commit.f00d7308",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Contracts/Inheritance.sol": {
+				"content": "// SPDX-License-Identifier: UNLICENSED\r\npragma solidity ^0.8.12;\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"Contracts/Inheritance.sol": {
+				"ast": {
+					"absolutePath": "Contracts/Inheritance.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".12"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "40:24:0"
+						}
+					],
+					"src": "40:28:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

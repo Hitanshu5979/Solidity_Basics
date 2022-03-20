@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_occupant",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "Occupy",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/HotelRoom.sol": "hotelRoom"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/HotelRoom.sol": {
+			"keccak256": "0x9a5c61d80691ced19be4eca806be5ead08b237a00eb3a60642ac8ff19c425001",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://7cfb3bbd112c90d43426ad1f3ab5f7ee521082db7a8dc51f007629c089caa27f",
+				"dweb:/ipfs/QmQPiwGUvwGYJ6uu1cV2J7GM7Pr4WJ7mAT54rJwjs7ueut"
+			]
+		}
+	},
+	"version": 1
+}

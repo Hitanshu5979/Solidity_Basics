@@ -1,0 +1,70 @@
+{
+	"id": "65bee468497dc1694cfe24f7560ac9e4",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.12",
+	"solcLongVersion": "0.8.12+commit.f00d7308",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Contracts/HotelRoom.sol": {
+				"content": "//SPDX-License-Identifier: UNLICENSED\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.12;\"\n--> Contracts/HotelRoom.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.12;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "Contracts/HotelRoom.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"Contracts/HotelRoom.sol": {
+				"ast": {
+					"absolutePath": "Contracts/HotelRoom.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "41:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

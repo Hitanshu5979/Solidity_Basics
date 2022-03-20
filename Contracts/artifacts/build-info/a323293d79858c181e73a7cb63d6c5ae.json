@@ -1,0 +1,321 @@
+{
+	"id": "a323293d79858c181e73a7cb63d6c5ae",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.12",
+	"solcLongVersion": "0.8.12+commit.f00d7308",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Contracts/HotelRoom.sol": {
+				"content": "//SPDX-License-Identifier: UNLICENSED\r\n\r\npragma solidity ^0.8.12;\r\n\r\ncontract hotelRoom {\r\n    // Ether \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"Contracts/HotelRoom.sol": {
+				"hotelRoom": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"Contracts/HotelRoom.sol\":69:107  contract hotelRoom {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"Contracts/HotelRoom.sol\":69:107  contract hotelRoom {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220344ba577f36bfb951a8936ebabec08dbeeaa19443ab775d4cb105b3806c83dba64736f6c634300080c0033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220344ba577f36bfb951a8936ebabec08dbeeaa19443ab775d4cb105b3806c83dba64736f6c634300080c0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLVALUE 0x4B 0xA5 PUSH24 0xF36BFB951A8936EBABEC08DBEEAA19443AB775D4CB105B38 MOD 0xC8 RETURNDATASIZE 0xBA PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
+							"sourceMap": "69:38:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea2646970667358221220344ba577f36bfb951a8936ebabec08dbeeaa19443ab775d4cb105b3806c83dba64736f6c634300080c0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLVALUE 0x4B 0xA5 PUSH24 0xF36BFB951A8936EBABEC08DBEEAA19443AB775D4CB105B38 MOD 0xC8 RETURNDATASIZE 0xBA PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
+							"sourceMap": "69:38:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 69,
+									"end": 107,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220344ba577f36bfb951a8936ebabec08dbeeaa19443ab775d4cb105b3806c83dba64736f6c634300080c0033",
+									".code": [
+										{
+											"begin": 69,
+											"end": 107,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 69,
+											"end": 107,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 69,
+											"end": 107,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 69,
+											"end": 107,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 69,
+											"end": 107,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 69,
+											"end": 107,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Contracts/HotelRoom.sol\":\"hotelRoom\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Contracts/HotelRoom.sol\":{\"keccak256\":\"0x8e293d4f77c809512a74772af61020fcd499c51472094571e8c71ec58f8c4902\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://87d317bc0599cb75413f4a0e10a27415efa4c96625da7ba8d792debae31c5d87\",\"dweb:/ipfs/QmYsSziJNN449qwXByGqsc5VDsMYJJXLgGh8D9cPYrnZgj\"]}},\"version\":1}",
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"Contracts/HotelRoom.sol": {
+				"ast": {
+					"absolutePath": "Contracts/HotelRoom.sol",
+					"exportedSymbols": {
+						"hotelRoom": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".12"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "41:24:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "hotelRoom",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "hotelRoom",
+							"nameLocation": "78:9:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "69:38:0",
+							"usedErrors": []
+						}
+					],
+					"src": "41:66:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

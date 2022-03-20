@@ -1,0 +1,67 @@
+{
+	"id": "56b757f9651f4ac8cd87a2b39c827437",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.12",
+	"solcLongVersion": "0.8.12+commit.f00d7308",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Contracts/HotelRoom.sol": {
+				"content": "//SPDX-License-Identifier: UNLICENSED\r\n\r\npragma solidity ^0.8.7;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"Contracts/HotelRoom.sol": {
+				"ast": {
+					"absolutePath": "Contracts/HotelRoom.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".7"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "41:23:0"
+						}
+					],
+					"src": "41:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
